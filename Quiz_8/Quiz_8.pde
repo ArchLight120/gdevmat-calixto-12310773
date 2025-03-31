@@ -14,7 +14,7 @@ void setup() {
 void draw() {
   background(0);
   
-  PVector gravity = new PVector(0, 0.4);
+  PVector gravity = new PVector(0, -0.4);
   PVector wind = new PVector(0.15, 0);
   
   for (Walker w : walkers) {
